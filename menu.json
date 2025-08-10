@@ -1,0 +1,58 @@
+{
+    "exclusiveDeals": [
+      {
+        "name": "Special Combo Pizza",
+        "price": 299,
+        "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+      },
+      {
+        "name": "2 for 1 Burger",
+        "price": 249,
+        "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+      }
+    ],
+  
+    "categories": [
+      {
+        "name": "Products",
+        "items": [
+          {
+            "name": "Product 1",
+            "price": 120,
+            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+          },
+          {
+            "name": "Product 2",
+            "price": 240,
+            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+          }
+        ]
+      },
+      {
+        "name": "Category 1",
+        "items": [
+          {
+            "name": "Grilled Sandwich",
+            "price": 90,
+            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+          },
+          {
+            "name": "Veg Wrap",
+            "price": 80,
+            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+          }
+        ]
+      },
+      {
+        "name": "Category 2",
+        "items": [
+          {
+            "name": "Hot Chocolate",
+            "price": 70,
+            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+          }
+        ]
+      }
+    ]
+  }
+  
