@@ -3,55 +3,65 @@
       {
         "name": "Special Combo Pizza",
         "price": 299,
-        "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+        "image": "./img/pizza.jpg"
       },
       {
         "name": "2 for 1 Burger",
         "price": 249,
-        "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+        "image": "./img/burger.jpg"
       }
     ],
   
     "categories": [
       {
-        "name": "Products",
+        "name": "Best Seller",
         "items": [
           {
-            "name": "Product 1",
+            "name": "Pasta",
+            "price": 150,
+            "image": "./img/pasta.jpg"
+          },
+          {
+            "name": "Fries",
             "price": 120,
-            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
-          },
-          {
-            "name": "Product 2",
-            "price": 240,
-            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+            "image": "./img/fries.jpg"
           }
         ]
       },
       {
-        "name": "Category 1",
+        "name": "Freshness",
         "items": [
           {
-            "name": "Grilled Sandwich",
-            "price": 90,
-            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+            "name": "Fruit Salad",
+            "price": 160,
+            "image": "./img/fruitsalad.jpg"
           },
           {
-            "name": "Veg Wrap",
-            "price": 80,
-            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+            "name": "Orange Juice",
+            "price": 101,
+            "image": "./img/orangejuice.jpg"
+          },
+          {
+            "name": "Watermelon Juice",
+            "price": 101,
+            "image": "./img/watermelonjuice.jpg"
           }
         ]
       },
       {
-        "name": "Category 2",
+        "name": "Wrap up !!",
         "items": [
           {
-            "name": "Hot Chocolate",
+            "name": "Mango Pastries",
             "price": 70,
-            "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+            "image": "./img/mangopastries.jpg"
+          },
+          {
+            "name": "Vanilla Pastries",
+            "price": 70,
+            "image": "./img/vanillapastries.jpg"
           }
-        ]
+        ] 
       }
     ]
   }

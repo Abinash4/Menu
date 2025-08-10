@@ -1,0 +1,1 @@
+     src path   // "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"

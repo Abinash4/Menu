@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Restaurant Menu</title>
-<link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
-<header>
-  <h1>🍽 My Restaurant Menu</h1>
-</header>
+    <header>
+        <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+        <h1>🍽 My Restaurant Menu</h1>
+        <button id="theme-toggle" aria-label="Toggle Theme" title="Toggle Dark/Light Mode">🌙</button>
+    </header>
 
-<main id="menu-root">
-  <!-- Sections will be inserted dynamically -->
-</main>
+    <div class="search-container">
+        <input type="text" id="menu-search" placeholder="🔍 Search menu items...">
+    </div>
 
-<footer>
-  <p>© 2025 My Restaurant</p>
-</footer>
+    <nav id="side-menu">
+        <button id="close-menu">✖</button>
+        <ul id="category-list"></ul>
+    </nav>
 
-<script src="./app.js"></script>
+    <main id="menu-root"> </main>
+
+    <footer>
+        <p>© 2025 My Restaurant</p>
+    </footer>
+
+
+    <script src="./app.js"></script>
 </body>
+
 </html>
